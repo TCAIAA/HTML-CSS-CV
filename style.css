@@ -45,11 +45,7 @@ body{font-family: 'Montserrat', sans-serif;}
     font-size: 15px;
 }
 
-#objective {
-    
-}
-
-#objective h3 {
+#objective h3, #education h3, #work h3, #bio-data h3 {
     border: 1px solid #d3d3d3;
     text-transform: uppercase;
     padding: 5px;
@@ -57,58 +53,19 @@ body{font-family: 'Montserrat', sans-serif;}
     margin: 30px 0 10px;
 }
 
-#objective p {
-    padding: 0 5px;
-    line-height: 25px;
-    font-size: 14px;
-    color: #000;
-}
-
-#education h3 {
-    border: 1px solid #d3d3d3;
-    text-transform: uppercase;
-    padding: 5px;
-    border-radius: 5px;
-    margin: 30px 0 10px;
-}
-
-#education table td {
+#objective p, #education table td, #work table td, #bio-data table td {
     padding: 5px;
     font-size: 14px;
     color: #000;
 }
 
-#education table tr.school-1 td:first-child {
+#education table tr.school-1 td:first-child, #work table tr.work-1 td:first-child {
     width: 120px;
     color: gray;
     padding-bottom: 25px;
 }
 
-#education table tr.school-2 td:first-child {
-    padding-bottom: 25px;
-}
-
-#work h3 {
-    border: 1px solid #d3d3d3;
-    text-transform: uppercase;
-    padding: 5px;
-    border-radius: 5px;
-    margin: 30px 0 10px;
-}
-
-#work table td {
-    padding: 5px;
-    font-size: 14px;
-    color: #000;
-}
-
-#work table tr.work-1 td:first-child {
-    width: 120px;
-    color: gray;
-    padding-bottom: 25px;
-}
-
-#work table tr.work-1 td {
+#education table tr.school-2 td:first-child, #work table tr.work-1 td {
     padding-bottom: 25px;
 }
 
@@ -117,24 +74,33 @@ body{font-family: 'Montserrat', sans-serif;}
     color: gray;
 }
 
-#bio-data h3 {
-    border: 1px solid #d3d3d3;
-    text-transform: uppercase;
-    padding: 5px;
-    border-radius: 5px;
-    margin: 30px 0 10px;
-}
-
-#bio-data table td {
-    padding: 8px;
-    font-size: 15px;
-    color: #000;
-}
-
 #bio-data table tr td:first-child {
     width: 200px;
 }
 
 #bio-data table tr td:nth-child(2) {
     width: 300px;
+}
+
+#skills, #interests {
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+#skills h3, #interests h3 {
+    color: #27aae1;
+    font-weight: bold;
+    border-bottom: 2px solid #27aae1;
+    display: inline-block;
+}
+
+#skills ul, #interests ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li, #interests li {
+    color: black;
+    font-weight: bold;
+    margin: 5px 0;
 }
