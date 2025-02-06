@@ -83,15 +83,23 @@ body{font-family: 'Montserrat', sans-serif;}
 }
 
 #skills, #interests {
-    background: #e8f0fe;
+    background: #e8f0fe; /* Light blue background */
     padding: 10px;
-    border-radius: 5px;
-    margin-top: 20px;
+    border: 1px solid #d3d3d3; /* Adds a border */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 30px;
+}
+
+#skills h3, #interests h3 {
+    text-transform: uppercase;
+    color: #1e73be; /* Match heading color */
+    padding: 5px;
+    border-bottom: none; /* Remove underline */
 }
 
 #skills ul, #interests ul {
     list-style-type: none;
-    padding: 0;
+    padding-left: 10px;
 }
 
 #skills li, #interests li {
