@@ -51,6 +51,7 @@ body{font-family: 'Montserrat', sans-serif;}
     padding: 5px;
     border-radius: 5px;
     margin: 30px 0 10px;
+    background: #e8f0fe;
 }
 
 #objective p, #education table td, #work table td, #bio-data table td, #skills ul li, #interests ul li {
@@ -83,23 +84,25 @@ body{font-family: 'Montserrat', sans-serif;}
 }
 
 #skills, #interests {
-    background: #e8f0fe; /* Light blue background */
+    background: #e8f0fe;
     padding: 10px;
-    border: 1px solid #d3d3d3; /* Adds a border */
-    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
     margin-top: 30px;
 }
 
 #skills h3, #interests h3 {
     text-transform: uppercase;
-    color: #1e73be; /* Match heading color */
+    color: #1e73be;
     padding: 5px;
-    border-bottom: none; /* Remove underline */
+    border-bottom: none;
+    margin: 0;
 }
 
 #skills ul, #interests ul {
     list-style-type: none;
     padding-left: 10px;
+    margin: 0;
 }
 
 #skills li, #interests li {
