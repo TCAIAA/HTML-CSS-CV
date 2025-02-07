@@ -86,8 +86,6 @@ body{font-family: 'Montserrat', sans-serif;}
 #skills, #interests {
     background: #e8f0fe;
     padding: 10px;
-    border: 1px solid #d3d3d3;
-    border-radius: 5px;
     margin-top: 30px;
 }
 
